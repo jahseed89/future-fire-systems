@@ -56,23 +56,23 @@ function Header() {
         {/* Desktop Menu */}
         <ul className="hidden md:flex gap-8">
           <li>
-            <Link href="/" className="hover:text-gray-300 w-bold">
+            <Link href="/" className="hover:text-[#de192a] w-bold border-b-2 border-transparent">
               Home
             </Link>
           </li>
           <li>
-            <Link href="/about" className="hover:text-gray-300 w-bold">
+            <Link href="/about" className="hover:text-[#de192a] w-bold border-b-2 border-transparent">
               About Us
             </Link>
           </li>
           <li>
-            <Link href="/gallery" className="hover:text-gray-300 w-bold">
+            <Link href="/gallery" className="hover:text-[#de192a] w-bold border-b-2 border-transparent">
               Gallery
             </Link>
           </li>
           <li>
-            <Link href="/contact" className="hover:text-gray-300 w-bold">
-              Contact
+            <Link href="/contact" className="hover:text-[#de192a] w-bold border-b-2 border-transparent">
+              Contact Us
             </Link>
           </li>
         </ul>
