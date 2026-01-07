@@ -10,17 +10,6 @@ function Header() {
   return (
     <nav className="bg-black text-white px-6 py-4">
       <div className="flex items-center justify-between">
-        {/* <Link href="/" className="flex items-center">
-          <div className="relative h-14 sm:h-16 md:h-20 lg:h-24 w-[180px] sm:w-[220px] md:w-[260px] lg:w-[300px]">
-            <Image
-              src="/ff-logo-new.png"
-              alt="Future Concerns Fire Systems Ltd Logo"
-              fill
-              priority
-              className="object-contain"
-            />
-          </div>
-        </Link> */}
         <Link href="/" className="flex items-center">
           <div className="relative h-10 sm:h-16 md:h-20 lg:h-18 w-[160px] sm:w-[200px] md:w-[240px] lg:w-[280px]">
             <Image
