@@ -60,6 +60,11 @@ function Header() {
             </Link>
           </li>
           <li>
+            <Link href="/blog" className="hover:text-[#de192a] w-bold border-b-2 border-transparent">
+              Our Blog
+            </Link>
+          </li>
+          <li>
             <Link href="/contact" className="hover:text-[#de192a] w-bold border-b-2 border-transparent">
               Contact Us
             </Link>

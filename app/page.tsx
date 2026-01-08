@@ -7,11 +7,11 @@ const images = [
   "/fire-fighting3.avif",
   "/fire-fighting4.avif",
   "/fire-fighting5.avif",
-  "/fire-fighting6.avif",
-  "/fire-fighting7.avif",
-  "/fire-fighting8.avif",
-  "/fire-fighting9.avif",
-  "/fire-fighting10.avif",
+  // "/fire-fighting6.avif",
+  // "/fire-fighting7.avif",
+  // "/fire-fighting8.avif",
+  // "/fire-fighting9.avif",
+  // "/fire-fighting10.avif",
 ];
 
 export default function Home() {
