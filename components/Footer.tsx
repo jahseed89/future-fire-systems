@@ -45,7 +45,7 @@ export default function Footer() {
           {/* LOGO */}
           <div>
             <Image
-              src="/ff-logo-new.png"
+              src="/new-logo.png"
               alt="Company Logo"
               width={180}
               height={50}

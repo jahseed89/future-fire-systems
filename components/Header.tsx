@@ -14,7 +14,7 @@ function Header() {
         <Link href="/" className="flex items-center">
           <div className="relative h-10 sm:h-16 md:h-20 w-[160px] sm:w-[200px] md:w-[240px]">
             <Image
-              src="/ff-logo-new.png"
+              src="/new-logo.png"
               alt="Future Concerns Fire Systems Ltd Logo"
               fill
               priority
