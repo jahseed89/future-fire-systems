@@ -37,8 +37,7 @@ export default function ContactPage() {
               <div>
                 <h3 className="font-bold text-lg">Lagos</h3>
                 <p className="mt-3 text-sm text-gray-600 leading-relaxed">
-                  3 Chris Efunyemi, Onanuga Street, by Babatunde Kuboye Street,
-                  Lekki Phase 1, Lagos.
+                  8b, Kingsley Emu Street, Lekki Phase 1, Lagos.
                 </p>
                 <p className="mt-4 text-sm font-semibold">07052629910</p>
               </div>
@@ -46,24 +45,13 @@ export default function ContactPage() {
               <div>
                 <h3 className="font-bold text-lg">Port Harcourt</h3>
                 <p className="mt-3 text-sm text-gray-600 leading-relaxed">
-                  17, Road 21, A Close, Trans Amadi Gardens, Port Harcourt
+                  96/97 Rivoc road, Trans-Amadi Industrial Layout,  Port Harcourt
                 </p>
                 <p className="mt-4 text-sm font-semibold">
                   0703 474 2958 <br />
                   0803 343 9329
                 </p>
               </div>
-
-              <div>
-                <h3 className="font-bold text-lg">Warri</h3>
-                <p className="mt-3 text-sm text-gray-600 leading-relaxed">
-                  Shell complex, Ejeba, Niger Close, Block 7, Warri
-                </p>
-                <p className="mt-4 text-sm font-semibold">
-                  +234 806 068 2838
-                </p>
-              </div>
-
               <div>
                 <h3 className="font-bold text-lg">Send us an email</h3>
                 <p className="mt-3 text-sm text-gray-600">
