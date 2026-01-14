@@ -101,13 +101,31 @@ export default function GalleryPage() {
             </h2>
             <p className="mt-4 text-sm leading-relaxed text-gray-300">
               Watch our fire systems in operation—demonstrating system
-              reliability, rapid response, professional execution, and compliance
-              with fire safety regulations.
+              reliability, rapid response, professional execution, and
+              compliance with fire safety regulations.
             </p>
           </div>
 
           <div className="grid gap-10 lg:grid-cols-2">
             {/* Video 1 */}
+            <div className="overflow-hidden rounded-xl shadow-lg">
+              <div className="relative aspect-video w-full">
+                <iframe
+                  // src="https://youtu.be/Qvtec5CG0nA"
+                  src="https://www.youtube.com/embed/Qvtec5CG0nA"
+                  title="Fire Safety Testing & Commissioning"
+                  className="absolute inset-0 h-full w-full"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowFullScreen
+                />
+              </div>
+              <div className="bg-black p-4 text-white">
+                <h3 className="text-sm font-semibold">
+                  Fire Safety Testing & Commissioning
+                </h3>
+              </div>
+            </div>
+            {/* Video 2 */}
             <div className="overflow-hidden rounded-xl shadow-lg">
               <div className="relative aspect-video w-full">
                 <iframe
@@ -121,24 +139,6 @@ export default function GalleryPage() {
               <div className="bg-black p-4 text-white">
                 <h3 className="text-sm font-semibold">
                   Fire Suppression System Demonstration
-                </h3>
-              </div>
-            </div>
-
-            {/* Video 2 */}
-            <div className="overflow-hidden rounded-xl shadow-lg">
-              <div className="relative aspect-video w-full">
-                <iframe
-                  src="https://www.youtube.com/embed/9q8XjYFJzjQ"
-                  title="Fire Safety Testing & Commissioning"
-                  className="absolute inset-0 h-full w-full"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                  allowFullScreen
-                />
-              </div>
-              <div className="bg-black p-4 text-white">
-                <h3 className="text-sm font-semibold">
-                  Fire Safety Testing & Commissioning
                 </h3>
               </div>
             </div>
