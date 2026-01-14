@@ -45,9 +45,9 @@ export default function Footer() {
           {/* LOGO */}
           <div>
             <Image
-              src="/new-logo.png"
+              src="/fire-systems-logo.png"
               alt="Company Logo"
-              width={180}
+              width={200}
               height={50}
               className="mb-4"
             />

@@ -109,7 +109,7 @@ export default function ContactPage() {
               <div className="flex items-start gap-3 text-sm">
                 <input type="checkbox" className="mt-1" />
                 <p className="text-gray-300">
-                  I agree to allow FCNL to store and process the personal
+                  I agree to allow FCFS to store and process the personal
                   information submitted.
                 </p>
               </div>
