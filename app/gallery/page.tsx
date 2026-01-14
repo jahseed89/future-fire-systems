@@ -133,7 +133,8 @@ export default function GalleryPage() {
         <div className="mx-auto max-w-7xl px-6">
           <div className="mb-12 max-w-3xl text-white">
             <h2 className="text-3xl font-extrabold">
-              Fire Protection in Action
+              {/* Fire Protection in Action */}
+              Futue Fire & NAFFCO in Action
             </h2>
             <p className="mt-4 text-sm leading-relaxed text-gray-300">
               Watch our teams execute fire system testing, commissioning, and
@@ -147,7 +148,7 @@ export default function GalleryPage() {
             <div className="overflow-hidden rounded-xl shadow-lg">
               <div className="relative aspect-video w-full">
                 <iframe
-                  src="https://www.youtube.com/embed/Qvtec5CG0nA"
+                  src="https://www.youtube.com/embed/HerZ_bOA7fE"
                   title="Fire Safety Testing & Commissioning"
                   className="absolute inset-0 h-full w-full"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -165,7 +166,7 @@ export default function GalleryPage() {
             <div className="overflow-hidden rounded-xl shadow-lg">
               <div className="relative aspect-video w-full">
                 <iframe
-                  src="https://www.youtube.com/embed/MhANtfG-5pA"
+                  src="https://www.youtube.com/embed/_gsM6fUE78I"
                   title="Fire Suppression System Demonstration"
                   className="absolute inset-0 h-full w-full"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"

@@ -282,17 +282,13 @@ export default function Home() {
       <section className="bg-white py-16 md:py-24">
         <div className="mx-auto max-w-5xl px-6 text-center">
           <h2 className="text-2xl font-extrabold text-gray-900 sm:text-3xl md:text-4xl">
-            NAFFCO in Action
+            AGPC & FCG
           </h2>
 
           <div className="mt-10 overflow-hidden rounded-xl shadow-lg">
-            {/* <video className="w-full rounded-xl" controls preload="metadata">
-              <source src="https://youtu.be/MhANtfG-5pA" type="video/mp4" />
-              Your browser does not support the video tag.
-            </video> */}
             <div className="relative aspect-video w-full overflow-hidden rounded-xl shadow-lg">
               <iframe
-                src="https://www.youtube.com/embed/MhANtfG-5pA"
+                src="https://www.youtube.com/embed/YUua3KhMt4A"
                 className="absolute inset-0 h-full w-full"
                 title="NAFFCO in Action"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
