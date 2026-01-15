@@ -97,7 +97,7 @@ export default function Home() {
 
             <div className="mt-8 flex flex-col items-center gap-4 sm:flex-row sm:justify-center">
               <Link
-                href="#"
+                href="/about"
                 className="inline-flex items-center justify-center rounded-md bg-red-600 px-8 py-3 text-sm font-semibold transition hover:bg-red-700"
               >
                 Learn More
@@ -141,7 +141,7 @@ export default function Home() {
 
               <div className="mt-8">
                 <Link
-                  href="#"
+                  href="/about"
                   className="inline-flex items-center rounded-md bg-red-600 px-8 py-3 text-sm font-semibold text-white transition hover:bg-red-700"
                 >
                   Learn More
@@ -206,7 +206,7 @@ export default function Home() {
               </p>
 
               <a
-                href="#"
+                href="/about"
                 className="mt-6 inline-flex items-center text-sm font-semibold text-red-600 hover:underline"
               >
                 Learn More →
@@ -227,7 +227,7 @@ export default function Home() {
               </p>
 
               <a
-                href="#"
+                href="/about"
                 className="mt-6 inline-flex items-center text-sm font-semibold text-red-600 hover:underline"
               >
                 Learn More →
@@ -248,7 +248,7 @@ export default function Home() {
               </p>
 
               <a
-                href="#"
+                href="/about"
                 className="mt-6 inline-flex items-center text-sm font-semibold text-red-600 hover:underline"
               >
                 Learn More →
@@ -269,7 +269,7 @@ export default function Home() {
               </p>
 
               <a
-                href="#"
+                href="about"
                 className="mt-6 inline-flex items-center text-sm font-semibold text-red-600 hover:underline"
               >
                 Learn More →
