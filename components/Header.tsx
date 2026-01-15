@@ -78,6 +78,7 @@ function Header() {
               { href: "/", label: "Home" },
               { href: "/about", label: "About Us" },
               { href: "/gallery", label: "Gallery" },
+              { href: "/blog", label: "Our Blog" },
               { href: "/contact", label: "Contact" },
             ].map((item) => (
               <li key={item.href}>
