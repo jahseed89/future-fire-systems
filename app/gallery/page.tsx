@@ -134,7 +134,7 @@ export default function GalleryPage() {
           <div className="mb-12 max-w-3xl text-white">
             <h2 className="text-3xl font-extrabold">
               {/* Fire Protection in Action */}
-              Futue Fire & NAFFCO in Action
+              Future Fire & NAFFCO in Action
             </h2>
             <p className="mt-4 text-sm leading-relaxed text-gray-300">
               Watch our teams execute fire system testing, commissioning, and
