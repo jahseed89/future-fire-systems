@@ -23,7 +23,7 @@ function Header() {
         <div className="flex h-16 items-center justify-between">
           {/* LOGO */}
           <Link href="/" className="flex items-center">
-            <div className="relative h-22 w-[350px] -ml-[24px] md:-ml-[20px] sm:w-[300px] md:h-24 md:w-[300px]">
+            <div className="relative h-22 w-[350px] -ml-20 md:-ml-[20px] sm:w-[300px] md:h-24 md:w-[300px]">
               <Image
                 src="/fire-systems-logo.png"
                 alt="Future Concerns Fire Systems Ltd Logo"
