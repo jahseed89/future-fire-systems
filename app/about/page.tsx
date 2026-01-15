@@ -55,13 +55,13 @@ export default function AboutUs() {
               {[{
                 title: "Fire Safety Expertise",
                 text: "Certified professionals delivering end-to-end fire system solutions compliant with NFPA and international standards.",
-              },{
+              }, {
                 title: "Maintenance & Local Support",
                 text: "Routine inspection, testing, and maintenance to ensure systems remain fully operational.",
-              },{
+              }, {
                 title: "24/7 Emergency Response",
                 text: "Rapid response teams ready to support critical fire safety needs at any time.",
-              },{
+              }, {
                 title: "Risk-Driven Engineering",
                 text: "Custom-designed systems based on hazard analysis and operational requirements.",
               }].map((item, i) => (
@@ -155,6 +155,51 @@ export default function AboutUs() {
           </div>
         </div>
       </section>
+
+      {/* END OF YEAR TEAM CELEBRATION + VIDEO */}
+      <section className="bg-neutral-700 py-20">
+        <div className="mx-auto max-w-7xl px-6">
+
+          {/* TEXT CONTENT */}
+          <div className="mx-auto mb-12 max-w-4xl text-center">
+            <p className="mb-2 text-sm font-semibold uppercase tracking-widest text-red-500">
+              Our People
+            </p>
+            <h2 className="mb-6 text-3xl font-extrabold text-white sm:text-4xl">
+              Celebrating Our Team & Safety Culture
+            </h2>
+            <p className="text-sm leading-relaxed text-gray-300 sm:text-base">
+              Beyond projects and systems, our greatest strength lies in our people.
+              Our End-of-Year Party is an opportunity to recognize the dedication,
+              teamwork, and professionalism that drive our fire safety and HSE
+              operations throughout the year. From design and installation to
+              inspection, testing, and maintenance, every team member plays a vital
+              role in delivering reliable, compliant, and life-saving fire protection
+              solutions.
+              <br /><br />
+              This celebration reflects our commitment to building a strong safety
+              culture—one founded on collaboration, continuous improvement, and shared
+              responsibility. As we move forward, we remain focused on protecting
+              lives, assets, and infrastructure while fostering an environment where
+              our people can grow, perform, and excel.
+            </p>
+          </div>
+          {/* VIDEO */}
+          <div className="mx-auto max-w-5xl overflow-hidden rounded-xl shadow-2xl">
+            <div className="relative aspect-video w-full">
+              <iframe
+                src="https://www.youtube.com/embed/MBvPy3Le168"
+                title="End of Year Party Celebration"
+                className="absolute inset-0 h-full w-full"
+                frameBorder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
 
       {/* CTA */}
       <section className="relative bg-black py-20">

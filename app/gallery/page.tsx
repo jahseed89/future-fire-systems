@@ -33,7 +33,7 @@ const galleryImages = [
   { src: "/people-action5.png", title: "On-Site Project Supervision" },
   { src: "/people-action8.png", title: "Certified Technicians in Full PPE" },
   {
-    src: "/people-action3.png",
+    src: "/people-action17.png",
     title: "Control Panel Configuration & Testing",
   },
   { src: "/people-action8.png", title: "Preventive Maintenance Activities" },
