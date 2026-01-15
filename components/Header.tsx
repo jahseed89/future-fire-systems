@@ -3,16 +3,27 @@
 import React, { useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
+import { usePathname } from "next/navigation";
 
 function Header() {
   const [isOpen, setIsOpen] = useState(false);
+  const pathname = usePathname(); // Get current path
+
+  const menuItems = [
+    { href: "/", label: "Home" },
+    { href: "/about", label: "About Us" },
+    { href: "/gallery", label: "Gallery" },
+    { href: "/blog", label: "Our Blog" },
+    { href: "/contact", label: "Contact Us" },
+  ];
 
   return (
     <nav className="sticky top-0 z-50 bg-black text-white px-4 py-2 md:py-4">
       <div className="mx-auto max-w-7xl">
         <div className="flex h-16 items-center justify-between">
+          {/* LOGO */}
           <Link href="/" className="flex items-center">
-            <div className="relative h-22 w-[350px] -ml-16 sm:w-[300px] md:h-24 md:w-[300px]">
+            <div className="relative h-22 w-[350px] -ml-[24px] md:-ml-[20px] sm:w-[300px] md:h-24 md:w-[300px]">
               <Image
                 src="/fire-systems-logo.png"
                 alt="Future Concerns Fire Systems Ltd Logo"
@@ -48,17 +59,15 @@ function Header() {
 
           {/* DESKTOP MENU */}
           <ul className="hidden md:flex gap-8">
-            {[
-              { href: "/", label: "Home" },
-              { href: "/about", label: "About Us" },
-              { href: "/gallery", label: "Gallery" },
-              { href: "/blog", label: "Our Blog" },
-              { href: "/contact", label: "Contact Us" },
-            ].map((item) => (
+            {menuItems.map((item) => (
               <li key={item.href}>
                 <Link
                   href={item.href}
-                  className="font-semibold transition hover:text-[#de192a]"
+                  className={`font-semibold transition ${
+                    pathname === item.href
+                      ? "text-red-600" // Active link
+                      : "text-white hover:text-red-600"
+                  }`}
                 >
                   {item.label}
                 </Link>
@@ -73,18 +82,14 @@ function Header() {
             isOpen ? "max-h-64 opacity-100" : "max-h-0 opacity-0"
           }`}
         >
-          <ul className="flex flex-col gap-4 py-4">
-            {[
-              { href: "/", label: "Home" },
-              { href: "/about", label: "About Us" },
-              { href: "/gallery", label: "Gallery" },
-              { href: "/blog", label: "Our Blog" },
-              { href: "/contact", label: "Contact" },
-            ].map((item) => (
+          <ul className="flex flex-col gap-6 py-4">
+            {menuItems.map((item) => (
               <li key={item.href}>
                 <Link
                   href={item.href}
-                  className="font-semibold"
+                  className={`font-semibold ${
+                    pathname === item.href ? "text-red-600" : "text-white"
+                  }`}
                   onClick={() => setIsOpen(false)}
                 >
                   {item.label}
