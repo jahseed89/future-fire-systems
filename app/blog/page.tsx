@@ -4,12 +4,12 @@ import Link from "next/link";
 const blogPosts = [
   {
     id: 1,
-    slug: "fire-detection-systems",
-    title: "Fire Detection Systems for Industrial Facilities",
+    slug: "managing-fire-outbreaks",
+    title: "Managing Fire Outbreaks",
     excerpt:
-      "Early fire detection is critical in industrial environments. Learn how modern fire alarm and detection systems help prevent catastrophic losses.",
-    image: "/fire-fighting1.avif",
-    date: "March 12, 2026",
+      "In recent weeks, Lagos has witnessed multiple fire outbreaks that have once again drawn attention to the critical importance of fire safety preparedness, infrastructure resilience...",
+    image: "/fire-outbreak.png",
+    date: "January 8, 2026",
   },
   {
     id: 2,
@@ -40,7 +40,7 @@ export default function OurBlog() {
         {/* Section Header */}
         <div className="mb-12 text-center">
           <h2 className="text-3xl font-bold text-gray-900 md:text-4xl">
-            Our <span className="text-red-600">Blog</span>
+            <span className="text-red-600">Blog</span>
           </h2>
           <p className="mx-auto mt-4 max-w-2xl text-gray-600">
             Insights, updates, and expert knowledge on fire detection,
