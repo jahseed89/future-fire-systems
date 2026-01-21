@@ -14,6 +14,7 @@ function Header() {
     { href: "/about", label: "About Us" },
     { href: "/gallery", label: "Gallery" },
     { href: "/blog", label: "Blog" },
+    { href: "/services", label: "Services" },
     { href: "/contact", label: "Contact Us" },
   ];
 
