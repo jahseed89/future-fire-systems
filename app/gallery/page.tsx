@@ -6,7 +6,7 @@ import Image from "next/image";
 const galleryImages = [
   {
     src: "/people-action12.png",
-    title: "System Installation Team on Site",
+    title: "Meeting with NAFFCO Representatives",
   },
   {
     src: "/people-action2.png",
@@ -24,7 +24,7 @@ const galleryImages = [
   { src: "/people-action6.png", title: "Fire Pump Room Installation Works" },
   {
     src: "/people-action10.png",
-    title: "Hose Reel & Hydrant Installation Team",
+    title: "Fire System, NAFFCO & MSA Collaboration",
   },
   {
     src: "/people-action4.png",
@@ -48,11 +48,11 @@ const galleryImages = [
   },
   {
     src: "/people-action14.png",
-    title: "Final Quality & Safety Assurance Checks",
+    title: "Future Fire Group Photo On Site",
   },
   {
     src: "/people-action15.png",
-    title: "Final Quality & Safety Assurance Checks",
+    title: "Group Photo with NAFFCO & The Fire Trucks",
   },
   {
     src: "/people-action16.png",
