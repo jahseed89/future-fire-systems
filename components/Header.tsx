@@ -12,9 +12,9 @@ function Header() {
   const menuItems = [
     { href: "/", label: "Home" },
     { href: "/about", label: "About Us" },
-    { href: "/gallery", label: "Gallery" },
-    { href: "/blog", label: "Blog" },
     { href: "/services", label: "Services" },
+    { href: "/blog", label: "Blog" },
+    { href: "/gallery", label: "Gallery" },
     { href: "/contact", label: "Contact Us" },
   ];
 

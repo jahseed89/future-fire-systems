@@ -1,6 +1,4 @@
-## Fire System Design & Engineering
-
-Our fire protection engineering services cover the **complete lifecycle** of fire system projects.
+Our fire protection engineering services cover the *complete lifecycle* of fire system projects.
 
 ### Engineering Services
 - Fire risk and hazard analysis
@@ -10,7 +8,7 @@ Our fire protection engineering services cover the **complete lifecycle** of fir
 - Authority approvals
 
 ### Standards
-Designs comply with **NFPA, FM, BS, and international fire codes**.
+Designs comply with *NFPA, FM, BS, and international fire codes*.
 
 ### Deliverables
 - Detailed drawings
