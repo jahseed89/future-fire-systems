@@ -100,7 +100,7 @@ to discuss fire protection solutions tailored to your environment.
   "fire-suppression-systems": {
     title: "Choosing the Right Fire Suppression System",
     date: "February 28, 2026",
-    image: "/the-hart.png",
+    image: "/the-hart.jpeg",
     content: `
 ## Introduction
 
@@ -202,7 +202,7 @@ export default async function BlogDetails({
   if (!post) notFound();
 
   return (
-    <section className="bg-white py-16">
+    <section className="py-16">
       <div className="mx-auto max-w-4xl px-4">
         <Link href="/blog" className="mb-6 inline-block text-red-600">
           ← Back to Blog

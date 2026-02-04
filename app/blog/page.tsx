@@ -17,7 +17,7 @@ const blogPosts = [
     title: "Choosing the Right Fire Suppression System",
     excerpt:
       "From sprinklers to gas suppression, selecting the right fire suppression system depends on your facility type and risk exposure.",
-    image: "/the-hart.png",
+    image: "/the-hart.jpeg",
     date: "February 28, 2026",
   },
   {
