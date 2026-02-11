@@ -211,7 +211,7 @@ export default async function BlogDetails({
         <h1 className="mb-2 text-3xl font-bold">{post.title}</h1>
         <p className="mb-6 text-gray-500">{post.date}</p>
 
-        <div className="relative mb-8 h-72 w-full overflow-hidden rounded-xl">
+        <div className="relative mb-8 h-82 w-full overflow-hidden rounded-xl">
           <Image
             src={post.image}
             alt={post.title}
