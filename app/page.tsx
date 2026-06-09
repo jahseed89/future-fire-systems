@@ -183,7 +183,7 @@ export default function Home() {
             </div>
 
             <Link
-              href="#"
+              href="services"
               className="inline-flex items-center justify-center rounded-md bg-red-600 px-6 py-3 text-sm font-semibold text-white transition hover:bg-red-700"
             >
               All Services
