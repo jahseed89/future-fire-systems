@@ -188,10 +188,10 @@ export default function AboutUs() {
           <div className="mx-auto max-w-5xl overflow-hidden rounded-xl shadow-2xl">
             <div className="relative aspect-video w-full">
               <iframe
-                src="https://www.youtube.com/embed/MBvPy3Le168"
+                src="https://www.youtube.com/embed/irmebTntR5Y"
                 title="End of Year Party Celebration"
                 className="absolute inset-0 h-full w-full"
-                frameBorder="0"
+                // frameBorder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowFullScreen
               />
